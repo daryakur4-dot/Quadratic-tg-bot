@@ -1,3 +1,5 @@
+.env 
+
 # Python временные файлы
 __pycache__/
 *.pyc

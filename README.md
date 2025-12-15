@@ -18,6 +18,7 @@ bot/
 ├── requirements.txt
 ├── Dockerfile
 ├── README.md
+├── .env
 ├── .gitignore
 └── .pre-commit-config.yaml
 

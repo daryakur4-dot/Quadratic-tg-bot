@@ -451,7 +451,8 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # ГЛАВНАЯ ФУНКЦИЯ
 # Запуск бота
 def main():
-    TOKEN = "7965486044:AAHEThwtqHh6GG4ICYSpt5q0xq1Hx0IX0zM"
+    with open('../.env') as f:
+        TOKEN = f.read().split('=')[1].strip()
 
     # Создаем приложение
     app = Application.builder().token(TOKEN).build()
