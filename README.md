@@ -7,13 +7,15 @@ Telegram-бот для отработки навыков решения квад
 Структура:
 
 bot/
-├── src/
-    └──алгоритм.png
+├── images/
+    └── алгоритм.png
     └── виетта.png
     └── ответ1.png
     └── ответ2.png
     └── ответ3.png
     └── ответ4.png
+├── src/
+    └── bot.py
 ├── requirements.txt
 ├── Dockerfile
 ├── README.md
